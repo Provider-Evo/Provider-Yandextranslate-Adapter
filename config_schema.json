@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "properties": {
+    "api_keys": {
+      "type": "array",
+      "title": "API Keys",
+      "items": {"type": "string"},
+      "default": [],
+      "description": "Yandex Cloud Translate API 密钥列表"
+    }
+  },
+  "required": ["api_keys"]
+}
